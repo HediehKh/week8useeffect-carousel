@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 50vh;
+}
+
+.title {
+	text-align: center;
+	font-size: 70px;
+	margin: 1em 0;
+  justify-content: inherit;
+  align-items: inherit;
+  width: 100%;
+  z-index: 2;
+}
+
+.main > a {
+	font-size: 50px;
+	margin-bottom: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+
+
+
